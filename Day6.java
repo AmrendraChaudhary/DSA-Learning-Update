@@ -1,0 +1,3 @@
+/*
+Prepared The Roadmap for java and understand some concept of core java
+*/
