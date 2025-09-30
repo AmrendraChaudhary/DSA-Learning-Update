@@ -17,15 +17,15 @@ Output:
 
 public class Solution {
     public static void nBinaryTriangle(int n) {
-        int start = 0;
+        int start_1 = 0;
         for (int i=0;i<n;i++){
              if(i%2==0)
-              start = 1;
+              start_1 = 1;
              else
              start = 0;
            for(int j=0;j<=i;j++){
                    System.out.print(start+" ");
-                   start = 1 - start;
+                   start_1 = 1 - start_1;
            }
            System.out.println();
     }
